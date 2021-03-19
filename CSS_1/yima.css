@@ -65,3 +65,9 @@ a:visited{
     padding: 10px;
     list-style: none;
 }
+.my-form{
+    padding: 20px;
+}
+.form-group{
+padding-bottom: 15px;
+}
