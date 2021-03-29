@@ -21,6 +21,9 @@ a:active{
 a:visited{
     color: none;
 }
+.clr{
+    clear: both;
+}
 
 .box-1{
     background-color:#333;
@@ -87,6 +90,7 @@ width: 100%;
 }
 .block h3{
     text-align: center;
+    color: sienna;
 }
 .block{
     float: left;
@@ -108,8 +112,29 @@ width: 100%;
     margin-top: 10px;
     box-sizing: border-box;
 }
-#main-box h3{
+#main-block h3{
     text-align: center;
-    text-decoration-color: sienna;
+    color: sienna;
+}
+.p-box{
+    width: 500px;
+    height: 300px;
+    border: 1px solid #000;
+    position: relative;
+
+}
+.p-box h2{
+    position: absolute;
+    top: 100px;
+    left: 300px;
+}
+.p-box h3{
+    position: absolute;
+    bottom: 50px;
+    right: 250px;
+}
+.fix-me{
+    position: fixed;
+    top: 400px;
 }
 
