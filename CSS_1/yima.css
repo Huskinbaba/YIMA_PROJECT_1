@@ -121,6 +121,9 @@ width: 100%;
     height: 300px;
     border: 1px solid #000;
     position: relative;
+    background-image: url('../images/light1.jpg');
+    background-position: center center;
+    
 
 }
 .p-box h2{
