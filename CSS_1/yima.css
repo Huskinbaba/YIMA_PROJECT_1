@@ -124,7 +124,6 @@ width: 100%;
     background-image: url('../images/light1.jpg');
     background-position: center center;
     
-
 }
 .p-box h2{
     position: absolute;
@@ -140,4 +139,15 @@ width: 100%;
     position: fixed;
     top: 400px;
 }
-
+.my-list li:first-child{
+background: red;
+}
+.my-list li:last-child{
+    background: greenyellow;
+}
+.my-list li:nth-child(6){
+background: indigo;
+}
+.my-list li:nth-child(3){
+    background: blue
+    }
